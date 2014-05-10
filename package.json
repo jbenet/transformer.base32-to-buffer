@@ -1,0 +1,31 @@
+{
+  "name": "transformer.base32-to-buffer",
+  "version": "0.0.1",
+  "description": "transformer conversion: base32 to buffer",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "transformer.base32": "0.0.2",
+    "transformer.buffer": "0.0.1",
+    "dat-transformer": "~0.1.5",
+    "base32": "0.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.base32-to-buffer.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.base32-to-buffer/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.base32-to-buffer"
+}
