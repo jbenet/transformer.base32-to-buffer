@@ -1,6 +1,6 @@
 {
   "name": "transformer.base32-to-buffer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: base32 to buffer",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,10 +12,11 @@
     "transformer-conversion"
   ],
   "dependencies": {
+    "base32": "0.0.6",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.base32": "0.0.2",
-    "transformer.buffer": "0.0.1",
-    "dat-transformer": "~0.1.5",
-    "base32": "0.0.6"
+    "transformer.buffer": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
